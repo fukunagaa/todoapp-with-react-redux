@@ -1,13 +1,40 @@
 # todoapp-with-react-redux
 react + reduxの理解を深めるためにtodoappを実装
 
-### プロジェクト作成
+### clone起動手順
+- githubからクローンする
+- npm installする
+```
+$ npm install
+```
+- サーバ起動
+```
+$ npm run start
+```
+
+### プロジェクト作成手順
 - create-react-appでプロジェクトを作成する
 ```
 $ npx create-react-app todoapp-with-react-redux
 ```
+- reduxとreact-reduxをインストール
+```
+$ npm install --save react-redux redux
+```
 
+- Provider定義されてないから@types/react-reduxインストールしないといけなかった
+```
+$ npm install @types/react-redux
+```
 
+- classnamesをインストール
+```
+$ npm install classnames
+```
+- 定義されてないから@types/classnamesをインストールしないといけなかった
+```
+$ npm install @types/classnames
+```
 
 # create-react-app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
